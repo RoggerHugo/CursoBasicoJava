@@ -18,13 +18,12 @@ public class Objetos {
 		Double i;
 		Character j;
 		Boolean k;
-		Date l;
-		
 		Object o = null;
 		
 		MiPrimeraClase p = new MiPrimeraClase();
 		p.saludo();
 		p.saludo("Hola SARAI");
 		System.out.print(p.saludo(20));
+
 	}
 }
