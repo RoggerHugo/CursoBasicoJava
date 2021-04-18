@@ -22,7 +22,7 @@ public class Objetos {
 		
 		MiPrimeraClase p = new MiPrimeraClase();
 		p.saludo();
-		p.saludo("Hola SARAI");
+		p.saludo("Hola SARA/GABO");
 		System.out.print(p.saludo(20));
 
 	}
