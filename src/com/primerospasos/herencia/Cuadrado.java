@@ -1,17 +1,30 @@
 package com.primerospasos.herencia;
 
+import java.sql.SQLOutput;
+
 public class Cuadrado extends FiguraGeometrica {
 
-    int rectas = 4;
-    int puntos = 4;
-    int angulo = 90;
-    int base;
-    int altura;
-    int perimetro;
-
-    @Override
-    public int setDimension() {
-        return 2;
+    public Cuadrado(){
+        setDimension(2);
     }
 
+    public int getPerimetro(int base, int altura){
+        if(base == altura){
+            setBase(base);
+            setAltura(altura);
+            dibuja();
+            cambiaColor();
+            return getBase() * getAltura();
+        }else {
+            System.out.println("La base y la altura no son iguales");
+            return 0;
+        }
+
+
+    }
+
+    @Override
+    public void cambiaColor() {
+        System.out.println("Color Negro");
+    }
 }
