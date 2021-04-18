@@ -24,7 +24,7 @@ public class Objetos {
 		
 		MiPrimeraClase p = new MiPrimeraClase();
 		p.saludo();
-		p.saludo("Hola SARAI/GABO");
+		p.saludo("Hola Gabo");
 		System.out.print(p.saludo(20));
 	}
 }
