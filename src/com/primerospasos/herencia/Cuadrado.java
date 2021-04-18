@@ -19,8 +19,11 @@ public class Cuadrado extends FiguraGeometrica {
             System.out.println("La base y la altura no son iguales");
             return 0;
         }
+    }
 
-
+    public int getArea(int base, int altura){
+        //area
+        return 0;
     }
 
     @Override
