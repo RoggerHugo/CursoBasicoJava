@@ -35,7 +35,7 @@ public class FiguraGeometrica implements Figura {
         this.radio = radio;
     }
 
-    public double getRadio(){
+    public double getRadio(double v){
         return radio;
     }
 
