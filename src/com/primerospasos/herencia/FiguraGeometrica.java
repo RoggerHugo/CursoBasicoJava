@@ -6,6 +6,7 @@ public class FiguraGeometrica implements Figura {
     private int base;
     private int altura;
     private double radio;
+    private int lado;
 
     public void setDimension(int dimension){
         this.dimension = dimension;
@@ -37,6 +38,14 @@ public class FiguraGeometrica implements Figura {
 
     public double getRadio(){
         return radio;
+    }
+
+    public void setLado(int lado){
+        this.lado = lado;
+    }
+
+    public int getLado(){
+        return lado;
     }
 
     @Override
