@@ -6,12 +6,14 @@ public class Circulo extends FiguraGeometrica{
         setDimension(2);
     }
 
-    public double getCircunferencia (double radio){
+    public double getCircunferencia(double radio){
+        int a = 2;
+        double pi = 3.1416;
         setRadio(radio);
         dibuja();
         cambiaColor();
 
-        return getRadio() * 2 * 3.1416;
+        return getRadio() * a * pi;
     }
 
     @Override
